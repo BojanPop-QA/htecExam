@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="65f57e5b-7c1c-4d67-ae52-3db61461b900" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1OVzMUWSQVvfPbXV89nTy4hWIuI" />
+  <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.LoginTests.userMustExist">
+    <configuration name="LoginTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="htecExam" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="examTestProject.examTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="examTestProject.examTests" />
+      <option name="MAIN_CLASS_NAME" value="examTestProject.examTests.LoginTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTests.loginWithValidUsernameAndPasswordTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="htecExam" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="examTestProject.examTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="examTestProject.examTests" />
+      <option name="MAIN_CLASS_NAME" value="examTestProject.examTests.LoginTests" />
+      <option name="METHOD_NAME" value="loginWithValidUsernameAndPasswordTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="0" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTests.loginWithValidUsernameAndPasswordTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="htecExam" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="examTestProject.examTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="examTestProject.examTests" />
+      <option name="MAIN_CLASS_NAME" value="examTestProject.examTests.LoginTests" />
+      <option name="METHOD_NAME" value="loginWithValidUsernameAndPasswordTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTests.userMustExist" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="htecExam" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="examTestProject.examTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="examTestProject.examTests" />
+      <option name="MAIN_CLASS_NAME" value="examTestProject.examTests.LoginTests" />
+      <option name="METHOD_NAME" value="userMustExist" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="0" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UseCasesTests.goToUseCasePageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="htecExam" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="examTestProject.examTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="examTestProject.examTests" />
+      <option name="MAIN_CLASS_NAME" value="examTestProject.examTests.UseCasesTests" />
+      <option name="METHOD_NAME" value="goToUseCasePageTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.LoginTests.userMustExist" />
+        <item itemvalue="TestNG.LoginTests" />
+        <item itemvalue="TestNG.UseCasesTests.goToUseCasePageTest" />
+        <item itemvalue="TestNG.LoginTests.loginWithValidUsernameAndPasswordTest (1)" />
+        <item itemvalue="TestNG.LoginTests.loginWithValidUsernameAndPasswordTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="65f57e5b-7c1c-4d67-ae52-3db61461b900" name="Default Changelist" comment="" />
+      <created>1564077503329</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1564077503329</updated>
+    </task>
+    <servers />
+  </component>
+</project>
