@@ -13,7 +13,7 @@ public class DashboardPage extends Pages {
 
 
     //WebELements
-    By usesCasesCard = By.cssSelector("a[href='/use-cases'");
+    By usesCasesCard = By.cssSelector("a[href='/use-cases']");
 
     public boolean isAt() {
         waitVisibility(usesCasesCard);

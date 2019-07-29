@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="65f57e5b-7c1c-4d67-ae52-3db61461b900" name="Default Changelist" comment="" />
+    <list default="true" id="65f57e5b-7c1c-4d67-ae52-3db61461b900" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/examTestProject/PropertyValues.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/examTestProject/PropertyValues.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/examTestProject/examPages/CreateUseCasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/examTestProject/examPages/CreateUseCasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/examTestProject/examPages/DashboardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/examTestProject/examPages/DashboardPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/examTestProject/examPages/Pages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/examTestProject/examPages/Pages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/examTestProject/examPages/UseCasesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/examTestProject/examPages/UseCasesPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/examTestProject/examTests/UseCasesTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/examTestProject/examTests/UseCasesTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/examTestProject/PropertyValues.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/examTestProject/PropertyValues.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/examTestProject/examPages/DashboardPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/examTestProject/examPages/DashboardPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/examTestProject/examPages/Pages.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/examTestProject/examPages/Pages.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/examTestProject/examPages/UseCasesPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/examTestProject/examPages/UseCasesPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/examTestProject/examTests/LoginTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/examTestProject/examTests/LoginTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/examTestProject/examTests/UseCasesTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/examTestProject/examTests/UseCasesTests.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,12 +32,18 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1OVzMUWSQVvfPbXV89nTy4hWIuI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="reference.idesettings.debugger.capture" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -34,8 +57,51 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.LoginTests.userMustExist">
-    <configuration name="LoginTests" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.&lt;default&gt;">
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="mvn" />
+                <option value="test" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="E:/Java/htecExam/testng.xml" type="TestNG" nameIsGenerated="true">
+      <module name="htecExam" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UseCasesTests" type="TestNG" nameIsGenerated="true">
       <module name="htecExam" />
       <extension name="coverage">
         <pattern>
@@ -44,7 +110,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="examTestProject.examTests" />
-      <option name="MAIN_CLASS_NAME" value="examTestProject.examTests.LoginTests" />
+      <option name="MAIN_CLASS_NAME" value="examTestProject.examTests.UseCasesTests" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -52,7 +118,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTests.loginWithValidUsernameAndPasswordTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="UseCasesTests.createUseCaseWithMoreStepsWithDivider" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="htecExam" />
       <extension name="coverage">
         <pattern>
@@ -61,47 +127,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="examTestProject.examTests" />
-      <option name="MAIN_CLASS_NAME" value="examTestProject.examTests.LoginTests" />
-      <option name="METHOD_NAME" value="loginWithValidUsernameAndPasswordTest" />
+      <option name="MAIN_CLASS_NAME" value="examTestProject.examTests.UseCasesTests" />
+      <option name="METHOD_NAME" value="createUseCaseWithMoreStepsWithDivider" />
       <option name="TEST_OBJECT" value="METHOD" />
-      <option name="PARAMETERS" value="0" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTests.loginWithValidUsernameAndPasswordTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="htecExam" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="examTestProject.examTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="examTestProject.examTests" />
-      <option name="MAIN_CLASS_NAME" value="examTestProject.examTests.LoginTests" />
-      <option name="METHOD_NAME" value="loginWithValidUsernameAndPasswordTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTests.userMustExist" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="htecExam" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="examTestProject.examTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="examTestProject.examTests" />
-      <option name="MAIN_CLASS_NAME" value="examTestProject.examTests.LoginTests" />
-      <option name="METHOD_NAME" value="userMustExist" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="PARAMETERS" value="0" />
       <properties />
       <listeners />
       <method v="2">
@@ -126,13 +154,95 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UseCasesTests.replaceTextWithNumberOfCharacters (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="htecExam" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="examTestProject.examTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="examTestProject.examTests" />
+      <option name="MAIN_CLASS_NAME" value="examTestProject.examTests.UseCasesTests" />
+      <option name="METHOD_NAME" value="replaceTextWithNumberOfCharacters" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="0" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UseCasesTests.replaceTextWithNumberOfCharacters" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="htecExam" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="examTestProject.examTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="examTestProject.examTests" />
+      <option name="MAIN_CLASS_NAME" value="examTestProject.examTests.UseCasesTests" />
+      <option name="METHOD_NAME" value="replaceTextWithNumberOfCharacters" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="&lt;default&gt;" type="TestNG" nameIsGenerated="true">
+      <module name="htecExam" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="E:\Java\htecExam\test-output" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="examTestProject.examTests" type="TestNG" nameIsGenerated="true">
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="examTestProject.examTests" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/test-output" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.examTestProject.examTests" />
+      <item itemvalue="TestNG.E:/Java/htecExam/testng.xml" />
+      <item itemvalue="TestNG.&lt;default&gt;" />
+      <item itemvalue="TestNG.UseCasesTests" />
+      <item itemvalue="TestNG.UseCasesTests.createUseCaseWithMoreStepsWithDivider" />
+      <item itemvalue="TestNG.UseCasesTests.goToUseCasePageTest" />
+      <item itemvalue="TestNG.UseCasesTests.replaceTextWithNumberOfCharacters" />
+      <item itemvalue="TestNG.UseCasesTests.replaceTextWithNumberOfCharacters (1)" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.LoginTests.userMustExist" />
-        <item itemvalue="TestNG.LoginTests" />
+        <item itemvalue="TestNG.UseCasesTests.replaceTextWithNumberOfCharacters" />
+        <item itemvalue="TestNG.UseCasesTests.replaceTextWithNumberOfCharacters (1)" />
         <item itemvalue="TestNG.UseCasesTests.goToUseCasePageTest" />
-        <item itemvalue="TestNG.LoginTests.loginWithValidUsernameAndPasswordTest (1)" />
-        <item itemvalue="TestNG.LoginTests.loginWithValidUsernameAndPasswordTest" />
+        <item itemvalue="TestNG.UseCasesTests.createUseCaseWithMoreStepsWithDivider" />
       </list>
     </recent_temporary>
   </component>
@@ -148,5 +258,25 @@
       <updated>1564077503329</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="TestNG">
+        <watch expression="allUseCases" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

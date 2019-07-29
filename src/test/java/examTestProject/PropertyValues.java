@@ -11,4 +11,5 @@ public class PropertyValues {
     public static String useCasesPageUrl="https://qa-sandbox.apps.htec.rs/use-cases";
     public static String playgroundPageUrl="https://qa-sandbox.apps.htec.rs/projects";
     public static String reportsPageUrl="https://qa-sandbox.apps.htec.rs/reports";
+    public static String createUseCasesPageUrl="https://qa-sandbox.apps.htec.rs/create-usecase";
 }

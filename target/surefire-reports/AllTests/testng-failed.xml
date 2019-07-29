@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AllTests]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="AllTests(failed)" verbose="0">
+    <classes>
+      <class name="examTestProject.examTests.LoginTests">
+        <methods>
+          <include name="close"/>
+          <include name="initialize"/>
+          <include name="passwordFieldIsRequiredTest"/>
+        </methods>
+      </class> <!-- examTestProject.examTests.LoginTests -->
+      <class name="examTestProject.examTests.UseCasesTests">
+        <methods>
+          <include name="close"/>
+          <include name="initialize"/>
+          <include name="setup"/>
+          <include name="createUseCaseWithMoreStepsWithDivider"/>
+        </methods>
+      </class> <!-- examTestProject.examTests.UseCasesTests -->
+    </classes>
+  </test> <!-- AllTests(failed) -->
+</suite> <!-- Failed suite [AllTests] -->

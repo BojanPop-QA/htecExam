@@ -8,8 +8,8 @@ import org.testng.Assert;
 
 public class Pages {
 
-    private static final int TIMEOUT = 5;
-    private static final int POLLING = 100;
+    private static final int TIMEOUT = 10;
+    private static final int POLLING = 1000;
 
     protected WebDriver driver;
     private WebDriverWait wait;
@@ -30,12 +30,19 @@ public class Pages {
 
     public void writeText (By elementBy, String text) {
         waitVisibility(elementBy);
+        driver.findElement(elementBy).clear();
         driver.findElement(elementBy).sendKeys(text);
     }
 
     public String readText (By elementBy) {
         waitVisibility(elementBy);
         return driver.findElement(elementBy).getText();
+    }
+
+    public String getValue (By elementBy)
+    {
+        waitVisibility(elementBy);
+        return driver.findElement(elementBy).getAttribute("value");
     }
 
     public void assertEquals (By elementBy, String expectedText) {

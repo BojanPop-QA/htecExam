@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">AllTests</th></tr>
+<tr><td><a href="#t0">AllTests</a></td><td class="num">11</td><td class="num">0</td><td class="num attn">2</td><td class="num">138,260</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">AllTests</th></tr></tbody><tbody id="t0"><tr><th colspan="4">AllTests &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">examTestProject.examTests.LoginTests</td><td><a href="#m0">passwordFieldIsRequiredTest</a></td><td rowspan="1">1564426780221</td><td rowspan="1">11053</td></tr><tr class="failedodd"><td rowspan="1">examTestProject.examTests.UseCasesTests</td><td><a href="#m1">createUseCaseWithMoreStepsWithDivider</a></td><td rowspan="1">1564426856735</td><td rowspan="1">10150</td></tr><tr><th colspan="4">AllTests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="6">examTestProject.examTests.LoginTests</td><td><a href="#m2">emailFieldIsRequiredTest</a></td><td rowspan="1">1564426762552</td><td rowspan="1">2068</td></tr><tr class="passedeven"><td><a href="#m3">goToLoginPageTest</a></td><td rowspan="1">1564426769191</td><td rowspan="1">262</td></tr><tr class="passedeven"><td><a href="#m4">loginWithValidUsernameAndPasswordTest</a></td><td rowspan="1">1564426773898</td><td rowspan="1">2120</td></tr><tr class="passedeven"><td><a href="#m5">passwordMustBeAtLeast6CharactersLongTest</a></td><td rowspan="1">1564426797590</td><td rowspan="1">2055</td></tr><tr class="passedeven"><td><a href="#m6">passwordMustBeValid</a></td><td rowspan="1">1564426803901</td><td rowspan="1">2212</td></tr><tr class="passedeven"><td><a href="#m7">userMustBeRegistered</a></td><td rowspan="1">1564426810257</td><td rowspan="1">2264</td></tr><tr class="passedodd"><td rowspan="5">examTestProject.examTests.UseCasesTests</td><td><a href="#m8">createUseCaseWithMaximumAmountOfCharacters</a></td><td rowspan="1">1564426834032</td><td rowspan="1">6919</td></tr><tr class="passedodd"><td><a href="#m9">createUseCaseWithMinimumAmountOfCharacters</a></td><td rowspan="1">1564426824208</td><td rowspan="1">3986</td></tr><tr class="passedodd"><td><a href="#m10">createUseCaseWithMoreStepsWithAddStepButton</a></td><td rowspan="1">1564426846245</td><td rowspan="1">5282</td></tr><tr class="passedodd"><td><a href="#m11">goToUseCasePageTest</a></td><td rowspan="1">1564426817689</td><td rowspan="1">1312</td></tr><tr class="passedodd"><td><a href="#m12">replaceTextWithNumberOfCharacters</a></td><td rowspan="1">1564426874201</td><td rowspan="1">19283</td></tr></tbody>
+</table>
+<h2>AllTests</h2><h3 id="m0">examTestProject.examTests.LoginTests#passwordFieldIsRequiredTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all elements located by By.cssSelector: form .form-group:nth-of-type(2) .invalid-feedback (tried for 10 second(s) with 1000 MILLISECONDS interval)
+Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;
+System info: host: &apos;BOJANPC&apos;, ip: &apos;192.168.0.13&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.3&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.142, chrome: {chromedriverVersion: 75.0.3770.140 (2d9f97485c7b..., userDataDir: C:\Users\Bojan\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59876}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 29bf106a0c42eddae34fa93d470529f1
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at examTestProject.examPages.Pages.waitVisibility(Pages.java:23)
+	at examTestProject.examPages.Pages.readText(Pages.java:38)
+	at examTestProject.examPages.LoginPage.getPasswordErrorText(LoginPage.java:46)
+	at examTestProject.examTests.LoginTests.passwordFieldIsRequiredTest(LoginTests.java:40)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">examTestProject.examTests.UseCasesTests#createUseCaseWithMoreStepsWithDivider</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all elements located by By.cssSelector: a[href=&apos;/use-cases&apos;] (tried for 10 second(s) with 1000 MILLISECONDS interval)
+Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;
+System info: host: &apos;BOJANPC&apos;, ip: &apos;192.168.0.13&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.3&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.142, chrome: {chromedriverVersion: 75.0.3770.140 (2d9f97485c7b..., userDataDir: C:\Users\Bojan\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60099}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 364105f727b3313003797d3685d70106
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at examTestProject.examPages.Pages.waitVisibility(Pages.java:23)
+	at examTestProject.examPages.Pages.click(Pages.java:27)
+	at examTestProject.examPages.DashboardPage.goToUseCasesPage(DashboardPage.java:25)
+	at examTestProject.examTests.UseCasesTests.createUseCaseWithMoreStepsWithDivider(UseCasesTests.java:80)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">examTestProject.examTests.LoginTests#emailFieldIsRequiredTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">examTestProject.examTests.LoginTests#goToLoginPageTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">examTestProject.examTests.LoginTests#loginWithValidUsernameAndPasswordTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">examTestProject.examTests.LoginTests#passwordMustBeAtLeast6CharactersLongTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">examTestProject.examTests.LoginTests#passwordMustBeValid</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">examTestProject.examTests.LoginTests#userMustBeRegistered</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">examTestProject.examTests.UseCasesTests#createUseCaseWithMaximumAmountOfCharacters</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">examTestProject.examTests.UseCasesTests#createUseCaseWithMinimumAmountOfCharacters</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">examTestProject.examTests.UseCasesTests#createUseCaseWithMoreStepsWithAddStepButton</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">examTestProject.examTests.UseCasesTests#goToUseCasePageTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">examTestProject.examTests.UseCasesTests#replaceTextWithNumberOfCharacters</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

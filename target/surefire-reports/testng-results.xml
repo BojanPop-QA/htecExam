@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="11" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-07-29T18:59:17Z" name="AllTests" finished-at="2019-07-29T19:01:36Z" duration-ms="138260">
+    <groups>
+    </groups>
+    <test started-at="2019-07-29T18:59:17Z" name="AllTests" finished-at="2019-07-29T19:01:36Z" duration-ms="138260">
+      <class name="examTestProject.examTests.LoginTests">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:examTestProject.examTests.LoginTests@4d1c00d0]" started-at="2019-07-29T18:59:17Z" name="initialize" finished-at="2019-07-29T18:59:22Z" duration-ms="4557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="emailFieldIsRequiredTest()[pri:0, instance:examTestProject.examTests.LoginTests@4d1c00d0]" started-at="2019-07-29T18:59:22Z" name="emailFieldIsRequiredTest" finished-at="2019-07-29T18:59:24Z" duration-ms="2068" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emailFieldIsRequiredTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:examTestProject.examTests.LoginTests@4d1c00d0]" started-at="2019-07-29T18:59:24Z" name="close" finished-at="2019-07-29T18:59:25Z" duration-ms="702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:examTestProject.examTests.LoginTests@4d1c00d0]" started-at="2019-07-29T18:59:25Z" name="initialize" finished-at="2019-07-29T18:59:29Z" duration-ms="3868" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="goToLoginPageTest()[pri:0, instance:examTestProject.examTests.LoginTests@4d1c00d0]" started-at="2019-07-29T18:59:29Z" name="goToLoginPageTest" finished-at="2019-07-29T18:59:29Z" duration-ms="262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToLoginPageTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:examTestProject.examTests.LoginTests@4d1c00d0]" started-at="2019-07-29T18:59:29Z" name="close" finished-at="2019-07-29T18:59:30Z" duration-ms="805" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:examTestProject.examTests.LoginTests@4d1c00d0]" started-at="2019-07-29T18:59:30Z" name="initialize" finished-at="2019-07-29T18:59:33Z" duration-ms="3640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="loginWithValidUsernameAndPasswordTest()[pri:0, instance:examTestProject.examTests.LoginTests@4d1c00d0]" started-at="2019-07-29T18:59:33Z" name="loginWithValidUsernameAndPasswordTest" finished-at="2019-07-29T18:59:36Z" duration-ms="2120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidUsernameAndPasswordTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:examTestProject.examTests.LoginTests@4d1c00d0]" started-at="2019-07-29T18:59:36Z" name="close" finished-at="2019-07-29T18:59:36Z" duration-ms="718" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:examTestProject.examTests.LoginTests@4d1c00d0]" started-at="2019-07-29T18:59:36Z" name="initialize" finished-at="2019-07-29T18:59:40Z" duration-ms="3485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="passwordFieldIsRequiredTest()[pri:0, instance:examTestProject.examTests.LoginTests@4d1c00d0]" started-at="2019-07-29T18:59:40Z" name="passwordFieldIsRequiredTest" finished-at="2019-07-29T18:59:51Z" duration-ms="11053" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of all elements located by By.cssSelector: form .form-group:nth-of-type(2) .invalid-feedback (tried for 10 second(s) with 1000 MILLISECONDS interval)
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'BOJANPC', ip: '192.168.0.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.142, chrome: {chromedriverVersion: 75.0.3770.140 (2d9f97485c7b..., userDataDir: C:\Users\Bojan\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59876}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 29bf106a0c42eddae34fa93d470529f1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all elements located by By.cssSelector: form .form-group:nth-of-type(2) .invalid-feedback (tried for 10 second(s) with 1000 MILLISECONDS interval)
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'BOJANPC', ip: '192.168.0.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.142, chrome: {chromedriverVersion: 75.0.3770.140 (2d9f97485c7b..., userDataDir: C:\Users\Bojan\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59876}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 29bf106a0c42eddae34fa93d470529f1
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at examTestProject.examPages.Pages.waitVisibility(Pages.java:23)
+at examTestProject.examPages.Pages.readText(Pages.java:38)
+at examTestProject.examPages.LoginPage.getPasswordErrorText(LoginPage.java:46)
+at examTestProject.examTests.LoginTests.passwordFieldIsRequiredTest(LoginTests.java:40)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passwordFieldIsRequiredTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:examTestProject.examTests.LoginTests@4d1c00d0]" started-at="2019-07-29T18:59:51Z" name="close" finished-at="2019-07-29T18:59:53Z" duration-ms="2646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:examTestProject.examTests.LoginTests@4d1c00d0]" started-at="2019-07-29T18:59:53Z" name="initialize" finished-at="2019-07-29T18:59:57Z" duration-ms="3662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="passwordMustBeAtLeast6CharactersLongTest()[pri:0, instance:examTestProject.examTests.LoginTests@4d1c00d0]" started-at="2019-07-29T18:59:57Z" name="passwordMustBeAtLeast6CharactersLongTest" finished-at="2019-07-29T18:59:59Z" duration-ms="2055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passwordMustBeAtLeast6CharactersLongTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:examTestProject.examTests.LoginTests@4d1c00d0]" started-at="2019-07-29T18:59:59Z" name="close" finished-at="2019-07-29T19:00:00Z" duration-ms="693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:examTestProject.examTests.LoginTests@4d1c00d0]" started-at="2019-07-29T19:00:00Z" name="initialize" finished-at="2019-07-29T19:00:03Z" duration-ms="3562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="passwordMustBeValid()[pri:0, instance:examTestProject.examTests.LoginTests@4d1c00d0]" started-at="2019-07-29T19:00:03Z" name="passwordMustBeValid" finished-at="2019-07-29T19:00:06Z" duration-ms="2212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passwordMustBeValid -->
+        <test-method is-config="true" signature="close()[pri:0, instance:examTestProject.examTests.LoginTests@4d1c00d0]" started-at="2019-07-29T19:00:06Z" name="close" finished-at="2019-07-29T19:00:06Z" duration-ms="704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:examTestProject.examTests.LoginTests@4d1c00d0]" started-at="2019-07-29T19:00:06Z" name="initialize" finished-at="2019-07-29T19:00:10Z" duration-ms="3440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="userMustBeRegistered()[pri:0, instance:examTestProject.examTests.LoginTests@4d1c00d0]" started-at="2019-07-29T19:00:10Z" name="userMustBeRegistered" finished-at="2019-07-29T19:00:12Z" duration-ms="2264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userMustBeRegistered -->
+        <test-method is-config="true" signature="close()[pri:0, instance:examTestProject.examTests.LoginTests@4d1c00d0]" started-at="2019-07-29T19:00:12Z" name="close" finished-at="2019-07-29T19:00:13Z" duration-ms="700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- examTestProject.examTests.LoginTests -->
+      <class name="examTestProject.examTests.UseCasesTests">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:examTestProject.examTests.UseCasesTests@4b2bac3f]" started-at="2019-07-29T19:00:13Z" name="initialize" finished-at="2019-07-29T19:00:16Z" duration-ms="3434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:examTestProject.examTests.UseCasesTests@4b2bac3f]" started-at="2019-07-29T19:00:16Z" name="setup" finished-at="2019-07-29T19:00:17Z" duration-ms="1032" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="goToUseCasePageTest()[pri:0, instance:examTestProject.examTests.UseCasesTests@4b2bac3f]" started-at="2019-07-29T19:00:17Z" name="goToUseCasePageTest" finished-at="2019-07-29T19:00:19Z" duration-ms="1312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToUseCasePageTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:examTestProject.examTests.UseCasesTests@4b2bac3f]" started-at="2019-07-29T19:00:19Z" name="close" finished-at="2019-07-29T19:00:19Z" duration-ms="860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:examTestProject.examTests.UseCasesTests@4b2bac3f]" started-at="2019-07-29T19:00:19Z" name="initialize" finished-at="2019-07-29T19:00:23Z" duration-ms="3341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:examTestProject.examTests.UseCasesTests@4b2bac3f]" started-at="2019-07-29T19:00:23Z" name="setup" finished-at="2019-07-29T19:00:24Z" duration-ms="1005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createUseCaseWithMinimumAmountOfCharacters()[pri:1, instance:examTestProject.examTests.UseCasesTests@4b2bac3f]" started-at="2019-07-29T19:00:24Z" name="createUseCaseWithMinimumAmountOfCharacters" finished-at="2019-07-29T19:00:28Z" duration-ms="3986" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUseCaseWithMinimumAmountOfCharacters -->
+        <test-method is-config="true" signature="close()[pri:0, instance:examTestProject.examTests.UseCasesTests@4b2bac3f]" started-at="2019-07-29T19:00:28Z" name="close" finished-at="2019-07-29T19:00:29Z" duration-ms="818" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:examTestProject.examTests.UseCasesTests@4b2bac3f]" started-at="2019-07-29T19:00:29Z" name="initialize" finished-at="2019-07-29T19:00:32Z" duration-ms="3842" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:examTestProject.examTests.UseCasesTests@4b2bac3f]" started-at="2019-07-29T19:00:32Z" name="setup" finished-at="2019-07-29T19:00:34Z" duration-ms="1178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createUseCaseWithMaximumAmountOfCharacters()[pri:2, instance:examTestProject.examTests.UseCasesTests@4b2bac3f]" started-at="2019-07-29T19:00:34Z" name="createUseCaseWithMaximumAmountOfCharacters" finished-at="2019-07-29T19:00:40Z" duration-ms="6919" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUseCaseWithMaximumAmountOfCharacters -->
+        <test-method is-config="true" signature="close()[pri:0, instance:examTestProject.examTests.UseCasesTests@4b2bac3f]" started-at="2019-07-29T19:00:40Z" name="close" finished-at="2019-07-29T19:00:41Z" duration-ms="843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:examTestProject.examTests.UseCasesTests@4b2bac3f]" started-at="2019-07-29T19:00:41Z" name="initialize" finished-at="2019-07-29T19:00:45Z" duration-ms="3415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:examTestProject.examTests.UseCasesTests@4b2bac3f]" started-at="2019-07-29T19:00:45Z" name="setup" finished-at="2019-07-29T19:00:46Z" duration-ms="1036" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createUseCaseWithMoreStepsWithAddStepButton()[pri:3, instance:examTestProject.examTests.UseCasesTests@4b2bac3f]" started-at="2019-07-29T19:00:46Z" name="createUseCaseWithMoreStepsWithAddStepButton" finished-at="2019-07-29T19:00:51Z" duration-ms="5282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUseCaseWithMoreStepsWithAddStepButton -->
+        <test-method is-config="true" signature="close()[pri:0, instance:examTestProject.examTests.UseCasesTests@4b2bac3f]" started-at="2019-07-29T19:00:51Z" name="close" finished-at="2019-07-29T19:00:52Z" duration-ms="805" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:examTestProject.examTests.UseCasesTests@4b2bac3f]" started-at="2019-07-29T19:00:52Z" name="initialize" finished-at="2019-07-29T19:00:55Z" duration-ms="3294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:examTestProject.examTests.UseCasesTests@4b2bac3f]" started-at="2019-07-29T19:00:55Z" name="setup" finished-at="2019-07-29T19:00:56Z" duration-ms="1108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createUseCaseWithMoreStepsWithDivider()[pri:4, instance:examTestProject.examTests.UseCasesTests@4b2bac3f]" started-at="2019-07-29T19:00:56Z" name="createUseCaseWithMoreStepsWithDivider" finished-at="2019-07-29T19:01:06Z" duration-ms="10150" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of all elements located by By.cssSelector: a[href='/use-cases'] (tried for 10 second(s) with 1000 MILLISECONDS interval)
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'BOJANPC', ip: '192.168.0.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.142, chrome: {chromedriverVersion: 75.0.3770.140 (2d9f97485c7b..., userDataDir: C:\Users\Bojan\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60099}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 364105f727b3313003797d3685d70106]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all elements located by By.cssSelector: a[href='/use-cases'] (tried for 10 second(s) with 1000 MILLISECONDS interval)
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'BOJANPC', ip: '192.168.0.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.142, chrome: {chromedriverVersion: 75.0.3770.140 (2d9f97485c7b..., userDataDir: C:\Users\Bojan\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60099}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 364105f727b3313003797d3685d70106
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at examTestProject.examPages.Pages.waitVisibility(Pages.java:23)
+at examTestProject.examPages.Pages.click(Pages.java:27)
+at examTestProject.examPages.DashboardPage.goToUseCasesPage(DashboardPage.java:25)
+at examTestProject.examTests.UseCasesTests.createUseCaseWithMoreStepsWithDivider(UseCasesTests.java:80)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUseCaseWithMoreStepsWithDivider -->
+        <test-method is-config="true" signature="close()[pri:0, instance:examTestProject.examTests.UseCasesTests@4b2bac3f]" started-at="2019-07-29T19:01:06Z" name="close" finished-at="2019-07-29T19:01:09Z" duration-ms="2671" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:examTestProject.examTests.UseCasesTests@4b2bac3f]" started-at="2019-07-29T19:01:09Z" name="initialize" finished-at="2019-07-29T19:01:13Z" duration-ms="3558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:examTestProject.examTests.UseCasesTests@4b2bac3f]" started-at="2019-07-29T19:01:13Z" name="setup" finished-at="2019-07-29T19:01:14Z" duration-ms="1086" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="replaceTextWithNumberOfCharacters()[pri:5, instance:examTestProject.examTests.UseCasesTests@4b2bac3f]" started-at="2019-07-29T19:01:14Z" name="replaceTextWithNumberOfCharacters" finished-at="2019-07-29T19:01:33Z" duration-ms="19283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- replaceTextWithNumberOfCharacters -->
+        <test-method is-config="true" signature="close()[pri:0, instance:examTestProject.examTests.UseCasesTests@4b2bac3f]" started-at="2019-07-29T19:01:33Z" name="close" finished-at="2019-07-29T19:01:36Z" duration-ms="2748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- examTestProject.examTests.UseCasesTests -->
+    </test> <!-- AllTests -->
+  </suite> <!-- AllTests -->
+</testng-results>
